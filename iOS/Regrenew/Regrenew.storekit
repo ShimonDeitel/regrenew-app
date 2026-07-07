@@ -1,0 +1,41 @@
+{
+  "identifier" : "RegrenewStoreKit",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "regrenew.pro.monthly.group",
+      "localizations" : [],
+      "name" : "Regrenew Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "regrenew.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Multi-vehicle and multi-state renewal calendar with document photo storage",
+              "displayName" : "Regrenew Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.regrenew.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Regrenew Pro Monthly",
+          "subscriptionGroupID" : "regrenew.pro.monthly.group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
